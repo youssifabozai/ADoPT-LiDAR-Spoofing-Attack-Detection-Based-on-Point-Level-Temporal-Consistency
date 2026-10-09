@@ -1,0 +1,32 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Demo (oracle flow, no GPU)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/demo_synthetic.py",
+      "args": ["--oracle"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Demo (neural scene flow)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/demo_synthetic.py",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "nuScenes mini: dense pedestrian (5 frames)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/run_nuscenes.py",
+      "args": ["--dataroot", "data/nuscenes", "--version", "v1.0-mini", "--attack", "dense",
+               "--kind", "pedestrian", "--max-samples", "5", "--out", "results/debug.csv"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    }
+  ]
+}

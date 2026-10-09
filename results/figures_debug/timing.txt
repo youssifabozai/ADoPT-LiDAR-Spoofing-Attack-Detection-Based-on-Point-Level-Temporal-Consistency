@@ -1,0 +1,2 @@
+debug4: synthesis 15.73s (includes new pair fits), check 14.81s per frame
+debug5: synthesis 15.69s (includes new pair fits), check 14.63s per frame

@@ -1,0 +1,2 @@
+dense_paperonly: synthesis 26.81s (includes new pair fits), check 25.61s per frame
+dense_rescored: synthesis 26.81s (includes new pair fits), check 25.61s per frame

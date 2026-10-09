@@ -1,0 +1,1 @@
+dense: synthesis 15.67s (includes new pair fits), check 18.52s per frame

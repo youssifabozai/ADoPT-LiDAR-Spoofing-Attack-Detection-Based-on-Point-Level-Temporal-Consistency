@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# nuScenes dataset (download separately, see README)
+data/
+
+# Large generated artifacts (regenerate with scripts/)
+results/**/*.npz
+results/**/*.pkl

@@ -1,0 +1,2 @@
+sparse_paperonly: synthesis 21.71s (includes new pair fits), check 17.08s per frame
+sparse_rescored: synthesis 21.71s (includes new pair fits), check 17.08s per frame
