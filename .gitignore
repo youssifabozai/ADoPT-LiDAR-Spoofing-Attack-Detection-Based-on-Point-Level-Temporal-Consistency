@@ -1,13 +1,17 @@
+﻿# dataset and outputs (too large for git)
+data/
+results/
+*.npz
+*.pkl
+*.zip
 # Python
-__pycache__/
-*.py[cod]
-.pytest_cache/
 .venv/
 venv/
-
-# nuScenes dataset (download separately, see README)
-data/
-
-# Large generated artifacts (regenerate with scripts/)
-results/**/*.npz
-results/**/*.pkl
+__pycache__/
+*.pyc
+.pytest_cache/
+# editors / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
